@@ -1,0 +1,23 @@
+
+table {
+  border-collapse: collapse;
+  font-family: 'Raleway', sans-serif;
+  font-size: small;
+}
+th {
+  background-color: #66faff;
+  color: rgb(44, 44, 44);
+}
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+td input[type="checkbox"] {
+  margin: 0;
+}
+tr:hover {background-color: coral;
+}
+
+
