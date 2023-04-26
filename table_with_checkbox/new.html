@@ -22,15 +22,15 @@
 		</thead>
 		<tbody>
 		  <tr>
-			<td>1. I can recognise my emotions as I experience them.</td>
-			<td><input type="checkbox" name="r1c1" id="r1c1" value="1"></td>
-			<td><input type="checkbox" name="r1c2" id="r1c2" value="2"></td>
-			<td><input type="checkbox" name="r1c3" id="r1c3" value="3"></td>
-			<td><input type="checkbox" name="r1c4" id="r1c4" value="4"></td>
-			<td><input type="checkbox" name="r1c5" id="r1c5" value="5"></td>
+			<td class="cell-highlighted">1. I can recognise my emotions as I experience them.</td>
+			<td class="checkbox"><input type="checkbox" name="r1c1" id="r1c1" value="1"></td>
+			<td class="checkbox"><input type="checkbox" name="r1c2" id="r1c2" value="2"></td>
+			<td class="checkbox"><input type="checkbox" name="r1c3" id="r1c3" value="3"></td>
+			<td class="checkbox"><input type="checkbox" name="r1c4" id="r1c4" value="4"></td>
+			<td class="checkbox"><input type="checkbox" name="r1c5" id="r1c5" value="5"></td>
 		  </tr>
 		  <tr>
-			<td>2. I lose my temper when I feel frustrated.</td>
+			<td class="cell-highlighted">2. I lose my temper when I feel frustrated.</td>
 			<td><input type="checkbox" name="r2c1" id="r2c1" value="1"></td>
 			<td><input type="checkbox" name="r2c2" id="r2c2" value="2"></td>
 			<td><input type="checkbox" name="r2c3" id="r2c3" value="3"></td>
@@ -38,7 +38,7 @@
 			<td><input type="checkbox" name="r2c5" id="r2c5" value="5"></td>
 		  </tr>
 		  <tr>
-			<td>3. People have told me that I'm a good listener.</td>
+			<td class="cell-highlighted">3. People have told me that I'm a good listener.</td>
 			<td><input type="checkbox" name="r3c1" id="r3c1" value="1"></td>
 			<td><input type="checkbox" name="r3c2" id="r3c2" value="2"></td>
 			<td><input type="checkbox" name="r3c3" id="r3c3" value="3"></td>
@@ -46,7 +46,7 @@
 			<td><input type="checkbox" name="r3c5" id="r3c5" value="5"></td>
 		  </tr>
 		  <tr>
-			<td>4. I know how to calm myself down when I feel anxious or upset.</td>
+			<td class="cell-highlighted">4. I know how to calm myself down when I feel anxious or upset.</td>
 			<td><input type="checkbox" name="name" id="name" value="1"></td>
 			<td><input type="checkbox" name="name" id="name" value="2"></td>
 			<td><input type="checkbox" name="name" id="name" value="3"></td>
@@ -54,7 +54,7 @@
 			<td><input type="checkbox" name="name" id="name" value="5"></td>
 		  </tr>
 		  <tr>
-			<td>5. I enjoy organising groups.</td>
+			<td class="cell-highlighted">5. I enjoy organising groups.</td>
 			<td><input type="checkbox" name="r3c1" id="r3c1" value="1"></td>
 			<td><input type="checkbox" name="name" id="name" value="2"></td>
 			<td><input type="checkbox" name="r3c3" id="r3c3" value="3"></td>
@@ -62,7 +62,7 @@
 			<td><input type="checkbox" name="r3c5" id="r3c5" value="5"></td>
 		  </tr>
 		  <tr>
-			<td>6. I find it hard to focus on something over the long term.</td>
+			<td class="cell-highlighted">6. I find it hard to focus on something over the long term.</td>
 			<td><input type="checkbox" name="r3c1" id="r3c1" value="1"></td>
 			<td><input type="checkbox" name="r3c2" id="r3c2" value="2"></td>
 			<td><input type="checkbox" name="r3c3" id="r3c3" value="3"></td>
@@ -70,7 +70,7 @@
 			<td><input type="checkbox" name="r3c5" id="r3c5" value="5"></td>
 		  </tr>
 		  <tr>
-			<td>7. I find it difficult to move on when I feel frustrated or unhappy.</td>
+			<td class="cell-highlighted">7. I find it difficult to move on when I feel frustrated or unhappy.</td>
 			<td><input type="checkbox" name="r3c1" id="r3c1" value="1"></td>
 			<td><input type="checkbox" name="r3c2" id="r3c2" value="2"></td>
 			<td><input type="checkbox" name="r3c3" id="r3c3" value="3"></td>
@@ -78,18 +78,21 @@
 			<td><input type="checkbox" name="r3c5" id="r3c5" value="5"></td>
 		  </tr>
 		  <tr>
-			<td> 8. I know my strengths and weaknesses.</td>
+			<td class="cell-highlighted"> 8. I know my strengths and weaknesses.</td>
 			<td><input type="checkbox" name="r3c1" id="r3c1" value="1"></td>
 			<td><input type="checkbox" name="r3c2" id="r3c2" value="2"></td>
 			<td><input type="checkbox" name="r3c3" id="r3c3" value="3"></td>
 			<td><input type="checkbox" name="r3c4" id="r3c4" value="4"></td>
 			<td><input type="checkbox" name="r3c5" id="r3c5" value="5"></td>
 		  </tr>
+		 
 		</tbody>
 	  </table>
 	  
-	  <button onclick="calculateSum()">Submit</button>
-	  
+	  <button onclick="calculateSum()">Submit
+		<span></span>
+	</button>
+	
 	  <p id="output"></p>
 
 	  <script>
